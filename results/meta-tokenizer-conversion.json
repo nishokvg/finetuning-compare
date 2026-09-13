@@ -1,0 +1,17 @@
+{
+  "source_sha256": "82e9d31979e92ab929cd544440f129d9ecd797b69e327f80f17e1c50d5551b55",
+  "base_vocabulary": 128000,
+  "special_token_ids_checked": 256,
+  "text_equivalence_cases": 1403,
+  "chat_and_mask_equivalence_cases": 466,
+  "max_sequence_tokens": 183,
+  "tokenizer_directory": "models/llama3.2-3b-tokenizer-hf",
+  "template": "Text-only cookbook llama3 format; not the stock HF date-injecting template",
+  "checks": "passed",
+  "network_required": false,
+  "files": {
+    "tokenizer_config.json": "3961af1ee1e43ca865e3685546b0fdd0bac7ca25f931db55634ff7e59d0547bc",
+    "tokenizer.json": "6a24bc22c0ee9bc56b26183fb810991a6bd00fa7515951ce0caccc578cb4af95",
+    "chat_template.jinja": "b1aaa2c290a1908abb26764f0695b51ced920c6f9f0b0fda2230356738b94556"
+  }
+}

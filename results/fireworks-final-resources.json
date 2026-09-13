@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-09-12T05:35:11.125427+00:00",
+  "training": {
+    "http_status": 200,
+    "name": "accounts/nishokvg-myac5qmcmir/rlorTrainerJobs/support-router-llama3b-dedicated-01",
+    "state": "JOB_STATE_DELETED",
+    "status": {
+      "code": "OK",
+      "message": "Archived. Resources released; no further billing. Checkpoints retained until 2026-10-12 \u2014 promotable via PromoteCheckpoint."
+    }
+  },
+  "inference": {
+    "http_status": 200,
+    "name": "accounts/nishokvg-myac5qmcmir/deployments/support-router-eval-01",
+    "state": "DELETED",
+    "status": {
+      "code": "OK",
+      "message": ""
+    },
+    "replicaCount": 0,
+    "desiredReplicaCount": 1
+  },
+  "adapter": {
+    "http_status": 200,
+    "name": "accounts/nishokvg-myac5qmcmir/models/support-router-llama3b-dedicated-01",
+    "state": "READY",
+    "status": {
+      "code": "OK",
+      "message": ""
+    }
+  }
+}

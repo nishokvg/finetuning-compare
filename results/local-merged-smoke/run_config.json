@@ -1,0 +1,13 @@
+{
+  "backend": "mlx",
+  "model": "models/local-router-merged",
+  "adapter": null,
+  "split": "smoke",
+  "limit": null,
+  "dataset_sha256": "fb1d2e67af0d77126b304ff240e385fa99152336d48cbe09fd10a7b12266636b",
+  "prompt_sha256": "18f22f414cecadb629040f15f370fa409a7598460fbfa0499b2e9897a876a176",
+  "generation": {
+    "max_tokens": 16,
+    "temperature": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "deployment_id": "support-router-eval-01",
+  "payload": {
+    "baseModel": "accounts/fireworks/models/llama-v3p2-3b-instruct",
+    "displayName": "Support router temporary evaluation",
+    "minReplicaCount": 0,
+    "maxReplicaCount": 1,
+    "acceleratorCount": 1,
+    "acceleratorType": "NVIDIA_H200_141GB",
+    "precision": "BF16",
+    "enableAddons": true,
+    "maxContextLength": 2048,
+    "autoscalingPolicy": {
+      "scaleToZeroWindow": "300s"
+    },
+    "annotations": {
+      "custom/purpose": "support-router-evaluation"
+    }
+  },
+  "max_runtime_seconds": 2400,
+  "estimated_max_gpu_usd": 5.333333333333333,
+  "generation": {
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "format": "raw Llama3 prompt matching training renderer; no injected dates",
+  "test_evaluation": "both models same 117 tickets, strict label parsing"
+}

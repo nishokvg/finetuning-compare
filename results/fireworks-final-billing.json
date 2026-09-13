@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-09-12T05:35:36.515300+00:00",
+  "total_spend_usd": 0.87,
+  "training_spend_usd": 0.81,
+  "inference_spend_usd": 0.05,
+  "credits_usd": 25.13,
+  "auto_reload": "off",
+  "settled_invoice": false,
+  "note": "Observed dashboard values; categories and total can differ due to rounding and billing lag. No additional credits purchased."
+}

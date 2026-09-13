@@ -1,0 +1,172 @@
+{
+  "backend": "mlx",
+  "model": "models/local-router-merged",
+  "adapter": null,
+  "split": "valid",
+  "output": "/Users/nishokmini/project/5A-Fine-Tune-a-Support-Ticket-Router/results/local-merged-valid",
+  "limit": null,
+  "resume": false,
+  "n": 94,
+  "accuracy": 0.7127659574468085,
+  "macro_f1": 0.7264971139971139,
+  "invalid_outputs": 7,
+  "latency_median_seconds": 0.4437233124917839,
+  "latency_p95_seconds": 0.5441482040419939,
+  "classification_report": {
+    "Support general": {
+      "precision": 0.8333333333333334,
+      "recall": 0.20833333333333334,
+      "f1-score": 0.3333333333333333,
+      "support": 24.0
+    },
+    "Fileservice": {
+      "precision": 0.9090909090909091,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.9090909090909091,
+      "support": 22.0
+    },
+    "O365": {
+      "precision": 0.8823529411764706,
+      "recall": 1.0,
+      "f1-score": 0.9375,
+      "support": 15.0
+    },
+    "EOL": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8888888888888888,
+      "support": 9.0
+    },
+    "Software": {
+      "precision": 0.8571428571428571,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.75,
+      "support": 9.0
+    },
+    "Active Directory": {
+      "precision": 0.5384615384615384,
+      "recall": 0.875,
+      "f1-score": 0.6666666666666666,
+      "support": 8.0
+    },
+    "Computer-Services": {
+      "precision": 0.46153846153846156,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.6,
+      "support": 7.0
+    },
+    "micro avg": {
+      "precision": 0.7701149425287356,
+      "recall": 0.7127659574468085,
+      "f1-score": 0.7403314917127072,
+      "support": 94.0
+    },
+    "macro avg": {
+      "precision": 0.7672584185189227,
+      "recall": 0.7721603793032363,
+      "f1-score": 0.7264971139971139,
+      "support": 94.0
+    },
+    "weighted avg": {
+      "precision": 0.8137025677701522,
+      "recall": 0.7127659574468085,
+      "f1-score": 0.7058067375886524,
+      "support": 94.0
+    }
+  },
+  "confusion_labels": [
+    "Support general",
+    "Fileservice",
+    "O365",
+    "EOL",
+    "Software",
+    "Active Directory",
+    "Computer-Services",
+    "INVALID"
+  ],
+  "confusion_matrix": [
+    [
+      5,
+      1,
+      0,
+      1,
+      1,
+      4,
+      5,
+      7
+    ],
+    [
+      0,
+      20,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      15,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      6,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "max_new_tokens": 16,
+  "temperature": 0,
+  "parsing": "case-insensitive exact label after whitespace trim; invalids are errors"
+}

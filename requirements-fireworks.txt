@@ -1,0 +1,6 @@
+# Install into .venv-fireworks, leaving the completed MLX environment intact.
+fireworks-ai[training]==1.2.11
+fireworks-training-cookbook @ git+https://github.com/fw-ai/cookbook.git@a8c8586f025b87f9fd72fceacb74ed949447cf3c#subdirectory=training
+# Direct compatibility pins; this is not a full transitive dependency lock.
+tinker==0.23.0
+transformers==5.5.4

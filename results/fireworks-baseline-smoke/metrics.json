@@ -1,0 +1,175 @@
+{
+  "backend": "fireworks",
+  "model": "accounts/fireworks/models/llama-v3p2-3b-instruct#accounts/nishokvg-myac5qmcmir/deployments/support-router-eval-01",
+  "split": "smoke",
+  "format": "raw Llama3 training renderer; no date insertion",
+  "prompt_sha256": "49bed163e312fdd8ab146eb6b09e9641047092679b301fbab2318abed4c94edd",
+  "dataset_sha256": "fb1d2e67af0d77126b304ff240e385fa99152336d48cbe09fd10a7b12266636b",
+  "generation": {
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "sequential_requests": true,
+  "warmup_excluded": true,
+  "n": 5,
+  "accuracy": 0.8,
+  "macro_f1": 0.5714285714285714,
+  "invalid_outputs": 1,
+  "latency_median_seconds": 0.4875897080055438,
+  "latency_p95_seconds": 0.7932271420257166,
+  "classification_report": {
+    "Support general": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Fileservice": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "O365": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "EOL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Software": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Active Directory": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Computer-Services": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "micro avg": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1-score": 0.8888888888888888,
+      "support": 5.0
+    },
+    "macro avg": {
+      "precision": 0.5714285714285714,
+      "recall": 0.5714285714285714,
+      "f1-score": 0.5714285714285714,
+      "support": 5.0
+    },
+    "weighted avg": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1-score": 0.8,
+      "support": 5.0
+    }
+  },
+  "confusion_labels": [
+    "Support general",
+    "Fileservice",
+    "O365",
+    "EOL",
+    "Software",
+    "Active Directory",
+    "Computer-Services",
+    "INVALID"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "parsing": "case-insensitive exact label after whitespace trim; invalids are errors"
+}

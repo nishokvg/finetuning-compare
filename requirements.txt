@@ -1,0 +1,5 @@
+mlx-lm[train]==0.31.3
+scikit-learn==1.9.1
+matplotlib==3.11.1
+pandas==3.0.5
+psutil==7.2.2

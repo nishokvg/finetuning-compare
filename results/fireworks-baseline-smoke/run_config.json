@@ -1,0 +1,14 @@
+{
+  "backend": "fireworks",
+  "model": "accounts/fireworks/models/llama-v3p2-3b-instruct#accounts/nishokvg-myac5qmcmir/deployments/support-router-eval-01",
+  "split": "smoke",
+  "format": "raw Llama3 training renderer; no date insertion",
+  "prompt_sha256": "49bed163e312fdd8ab146eb6b09e9641047092679b301fbab2318abed4c94edd",
+  "dataset_sha256": "fb1d2e67af0d77126b304ff240e385fa99152336d48cbe09fd10a7b12266636b",
+  "generation": {
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "sequential_requests": true,
+  "warmup_excluded": true
+}

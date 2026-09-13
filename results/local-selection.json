@@ -1,0 +1,7 @@
+{
+  "rule": "Fixed final three-epoch checkpoint, matching the planned cloud run.",
+  "selected": {
+    "epoch": 3,
+    "adapter": "adapters/local-full"
+  }
+}

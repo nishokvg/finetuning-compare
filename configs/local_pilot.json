@@ -1,0 +1,30 @@
+{
+  "model": "models/qwen3-4b-4bit",
+  "train": true,
+  "seed": 42,
+  "fine_tune_type": "lora",
+  "num_layers": 36,
+  "batch_size": 1,
+  "grad_accumulation_steps": 4,
+  "learning_rate": 0.0001,
+  "optimizer": "adamw",
+  "optimizer_config": {
+    "adamw": {
+      "weight_decay": 0.0
+    }
+  },
+  "max_seq_length": 512,
+  "grad_checkpoint": true,
+  "mask_prompt": true,
+  "lora_parameters": {
+    "rank": 8,
+    "scale": 2.0,
+    "dropout": 0.0
+  },
+  "steps_per_report": 20,
+  "iters": 80,
+  "val_batches": 14,
+  "steps_per_eval": 80,
+  "save_every": 80,
+  "adapter_path": "adapters/local-pilot"
+}

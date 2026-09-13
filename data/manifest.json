@@ -1,0 +1,119 @@
+{
+  "source_sha256": "c55c98b462f1af9b2f5e4ad8a7460a6b598e55bcfa42da1b57dc9e921e82783f",
+  "outer_seed": 42,
+  "inner_seed": 43,
+  "labels": [
+    "Support general",
+    "Fileservice",
+    "O365",
+    "EOL",
+    "Software",
+    "Active Directory",
+    "Computer-Services"
+  ],
+  "system_prompt": "You are an IT helpdesk ticket routing assistant. Given a support ticket, respond with exactly one of the following categories: Support general, Fileservice, O365, EOL, Software, Active Directory, Computer-Services.",
+  "near_duplicate_threshold": 0.9,
+  "near_duplicates": [
+    {
+      "id_a": "e4a4a874e9e868e5",
+      "id_b": "bf9ea99a3c5ee160",
+      "split_a": "train",
+      "split_b": "train",
+      "similarity": 0.9586204911673476,
+      "label_a": "Computer-Services",
+      "label_b": "Computer-Services",
+      "text_a": "Hi, could someone help me get a printer installed on my computer? I'm not sure how to set it up myself. Thanks!",
+      "text_b": "Hey, could someone help me get a printer installed on my computer? I'm not sure how to do it myself. Thanks!"
+    },
+    {
+      "id_a": "5ebfad1972495c1d",
+      "id_b": "f18043005ca1948f",
+      "split_a": "train",
+      "split_b": "test",
+      "similarity": 0.9795005133987816,
+      "label_a": "Support general",
+      "label_b": "Support general",
+      "text_a": "Hi there, could you please set up a new Windows account for a new team member? They'll need email access through Exchange, Skype, and the standard file share access everyone else has.",
+      "text_b": "Hi, could you please set up a new Windows account for a new team member? They'll need email access through Exchange, Skype, and the standard file share access that everyone else has."
+    },
+    {
+      "id_a": "5ebfad1972495c1d",
+      "id_b": "60131d3d5e8132f4",
+      "split_a": "train",
+      "split_b": "train",
+      "similarity": 0.9819221925772249,
+      "label_a": "Support general",
+      "label_b": "Support general",
+      "text_a": "Hi there, could you please set up a new Windows account for a new team member? They'll need email access through Exchange, Skype, and the standard file share access everyone else has.",
+      "text_b": "Hi there, could you please set up a new Windows account for a new team member? They'll need email access through Exchange, Skype, and the standard file share access that everyone else has. Thanks!"
+    },
+    {
+      "id_a": "60131d3d5e8132f4",
+      "id_b": "f18043005ca1948f",
+      "split_a": "train",
+      "split_b": "test",
+      "similarity": 0.970870329850593,
+      "label_a": "Support general",
+      "label_b": "Support general",
+      "text_a": "Hi there, could you please set up a new Windows account for a new team member? They'll need email access through Exchange, Skype, and the standard file share access that everyone else has. Thanks!",
+      "text_b": "Hi, could you please set up a new Windows account for a new team member? They'll need email access through Exchange, Skype, and the standard file share access that everyone else has."
+    },
+    {
+      "id_a": "3f71df3cbab49bc7",
+      "id_b": "7c99cea902bb1920",
+      "split_a": "train",
+      "split_b": "train",
+      "similarity": 0.9777262415227452,
+      "label_a": "Software",
+      "label_b": "Software",
+      "text_a": "Hey, I need a program installed on my computer. Can someone help get that taken care of?",
+      "text_b": "Hi, I need a program installed on my computer. Can someone help get that taken care of?"
+    }
+  ],
+  "excluded_ids": [
+    "5ebfad1972495c1d",
+    "60131d3d5e8132f4"
+  ],
+  "exclusion_policy": "Remove lower-priority examples in connected near-duplicate groups; test > valid > train.",
+  "splits": {
+    "train": {
+      "rows": 372,
+      "counts": {
+        "Support general": 94,
+        "Fileservice": 88,
+        "O365": 59,
+        "EOL": 37,
+        "Software": 37,
+        "Active Directory": 31,
+        "Computer-Services": 26
+      },
+      "jsonl_sha256": "15f80b21c618e7ec4c336cf79c42af5a45d1f12c20dfb55f8246aebcbb69eb69"
+    },
+    "valid": {
+      "rows": 94,
+      "counts": {
+        "Support general": 24,
+        "Fileservice": 22,
+        "O365": 15,
+        "Software": 9,
+        "EOL": 9,
+        "Active Directory": 8,
+        "Computer-Services": 7
+      },
+      "jsonl_sha256": "d20332380799a30b1a15de01efe958bd6d446a9ef417517a948eb642c49f305e"
+    },
+    "test": {
+      "rows": 117,
+      "counts": {
+        "Support general": 30,
+        "Fileservice": 28,
+        "O365": 18,
+        "EOL": 12,
+        "Software": 12,
+        "Active Directory": 9,
+        "Computer-Services": 8
+      },
+      "jsonl_sha256": "b5dcd6cc8211f31f9e83e0f56512fb25ce7306bc0a041c15d68a14212ec7fd2c"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "reason": "Validation accuracy fell from 85/94 (adapter) to 67/94 (4-bit merged), with 7 invalid merged outputs. Test metrics were not inspected for this decision.",
+  "action": "Evaluate an 8-bit projection merge, preserving unchanged 4-bit embeddings. Keep original adapter as primary trained-model comparison.",
+  "training_unchanged": true,
+  "chosen_before_reading_test_metrics": true
+}

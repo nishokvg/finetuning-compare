@@ -1,0 +1,50 @@
+{
+  "status": "Training and inference evaluation complete; model READY; all temporary GPU resources deleted",
+  "account": "nishokvg-myac5qmcmir",
+  "base_model": "accounts/fireworks/models/llama-v3p2-3b-instruct",
+  "tokenizer_model": "meta-llama/Llama-3.2-3B-Instruct",
+  "tokenizer_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+  "training_shape_version": "accounts/fireworks/trainingShapes/llama-v3p2-3b-instruct-128k-lora/versions/cubv996y",
+  "job_id": "support-router-llama3b-dedicated-01",
+  "output_model_id": "support-router-llama3b-dedicated-01",
+  "run_dir": "results/fireworks-dedicated/llama3b-01",
+  "sdk_version": "1.2.11",
+  "cookbook_commit": "a8c8586f025b87f9fd72fceacb74ed949447cf3c",
+  "epochs": 3,
+  "batch_size": 4,
+  "learning_rate": 0.0001,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "max_seq_len": 1024,
+  "replicas": 1,
+  "runtime_limit_seconds": 1800,
+  "inactivity_timeout_seconds": 600,
+  "gpu_hour_usd": 8,
+  "proposed_training_allowance_usd": 6,
+  "total_project_budget_usd": 25,
+  "price_source": "https://fireworks.ai/pricing",
+  "splits": {
+    "train": {
+      "file": "data/train.jsonl",
+      "rows": 372,
+      "sha256": "15f80b21c618e7ec4c336cf79c42af5a45d1f12c20dfb55f8246aebcbb69eb69"
+    },
+    "valid": {
+      "file": "data/valid.jsonl",
+      "rows": 94,
+      "sha256": "d20332380799a30b1a15de01efe958bd6d446a9ef417517a948eb642c49f305e"
+    },
+    "test": {
+      "file": "data/test.jsonl",
+      "rows": 117,
+      "sha256": "b5dcd6cc8211f31f9e83e0f56512fb25ce7306bc0a041c15d68a14212ec7fd2c"
+    }
+  },
+  "renderer_name": "llama3",
+  "tokenizer_local_dir": "models/llama3.2-3b-tokenizer-hf",
+  "tokenizer_local_sha256": {
+    "tokenizer_config.json": "3961af1ee1e43ca865e3685546b0fdd0bac7ca25f931db55634ff7e59d0547bc",
+    "tokenizer.json": "6a24bc22c0ee9bc56b26183fb810991a6bd00fa7515951ce0caccc578cb4af95",
+    "chat_template.jinja": "b1aaa2c290a1908abb26764f0695b51ced920c6f9f0b0fda2230356738b94556"
+  }
+}

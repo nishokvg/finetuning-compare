@@ -1,0 +1,12 @@
+{
+  "checks": "passed",
+  "existing_tests_passed": 12,
+  "test_predictions_verified_across_runs": 6,
+  "test_tickets_per_run": 117,
+  "raw_inference_template_matches_converted_training_template": true,
+  "mac_demo_category": "Software",
+  "cloud_training_released": true,
+  "cloud_inference_released": true,
+  "cloud_adapter_state": "READY",
+  "submission_published": false
+}

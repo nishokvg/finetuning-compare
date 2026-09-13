@@ -1,0 +1,96 @@
+{
+  "recordedAt": "2026-09-12T02:56:40.261108+00:00",
+  "jobId": "support-router-llama3b-20260911",
+  "request": {
+    "dataset": "accounts/nishokvg-myac5qmcmir/datasets/train",
+    "evaluationDataset": "accounts/nishokvg-myac5qmcmir/datasets/valid",
+    "displayName": "Support router shared split Llama3B LoRA",
+    "outputModel": "support-router-llama3b-20260911",
+    "baseModel": "accounts/fireworks/models/llama-v3p2-3b-instruct",
+    "epochs": 3,
+    "learningRate": 0.0001,
+    "maxContextLength": 1024,
+    "loraRank": 8,
+    "batchSizeSamples": 4,
+    "learningRateWarmupSteps": 0,
+    "lrScheduler": {
+      "constant": {}
+    },
+    "optimizerWeightDecay": 0,
+    "evalAutoCarveout": false,
+    "useReservation": false,
+    "wandbConfig": {
+      "enabled": false
+    }
+  },
+  "events": [
+    {
+      "action": "check_existing_job",
+      "httpStatus": 404,
+      "response": {
+        "error": "{'code': 5, 'details': [], 'message': 'resource not found'}"
+      }
+    },
+    {
+      "action": "submit_job",
+      "httpStatus": 400,
+      "response": {
+        "error": "{'code': 3, 'details': [], 'message': 'invalid output model ID: name must be in the format: \"accounts/<accounts-id>/models/<models-id>\"'}"
+      }
+    },
+    {
+      "action": "recheck_existing_job",
+      "httpStatus": 404,
+      "response": {
+        "error": "{\n  \"code\": 5,\n  \"details\": [],\n  \"message\": \"resource not found\"\n}"
+      },
+      "time": "2026-09-12T02:56:58.593155+00:00"
+    },
+    {
+      "action": "submit_with_full_output_model_resource",
+      "httpStatus": 400,
+      "response": {
+        "error": "{\n  \"code\": 3,\n  \"details\": [],\n  \"message\": \"model does not support tuning\"\n}"
+      },
+      "time": "2026-09-12T02:56:58.786177+00:00"
+    }
+  ],
+  "correctedRequest": {
+    "dataset": "accounts/nishokvg-myac5qmcmir/datasets/train",
+    "evaluationDataset": "accounts/nishokvg-myac5qmcmir/datasets/valid",
+    "displayName": "Support router shared split Llama3B LoRA",
+    "outputModel": "accounts/nishokvg-myac5qmcmir/models/support-router-llama3b-20260911",
+    "baseModel": "accounts/fireworks/models/llama-v3p2-3b-instruct",
+    "epochs": 3,
+    "learningRate": 0.0001,
+    "maxContextLength": 1024,
+    "loraRank": 8,
+    "batchSizeSamples": 4,
+    "learningRateWarmupSteps": 0,
+    "lrScheduler": {
+      "constant": {}
+    },
+    "optimizerWeightDecay": 0,
+    "evalAutoCarveout": false,
+    "useReservation": false,
+    "wandbConfig": {
+      "enabled": false
+    }
+  },
+  "finalVerification": {
+    "jobs": {
+      "httpStatus": 200,
+      "totalSize": 0,
+      "jobs": [],
+      "nextPageTokenPresent": false
+    },
+    "model": {
+      "httpStatus": 200,
+      "name": "accounts/fireworks/models/llama-v3p2-3b-instruct",
+      "state": "READY",
+      "supportsLora": true,
+      "supervisedLoraTunable": true,
+      "useTrainingV2": true
+    }
+  }
+}

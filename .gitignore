@@ -1,0 +1,25 @@
+.venv/
+.cache/
+models/
+adapters/
+__pycache__/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+.venv-fireworks/
+
+results/fireworks-dedicated/
+
+.presentation-build/
+.codex-finalizer/
+node_modules/
+*.zip
+
+# Ignore local symlinks as well as directories
+.venv
+.venv-fireworks
+models
+
+.chart-data*/

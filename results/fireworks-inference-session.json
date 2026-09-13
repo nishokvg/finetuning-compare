@@ -1,0 +1,33 @@
+{
+  "deployment": "accounts/nishokvg-myac5qmcmir/deployments/support-router-eval-01",
+  "status": "evaluation_complete",
+  "started_at_unix": 1789190809.960128,
+  "payload": {
+    "baseModel": "accounts/fireworks/models/llama-v3p2-3b-instruct",
+    "displayName": "Support router temporary evaluation",
+    "minReplicaCount": 0,
+    "maxReplicaCount": 1,
+    "acceleratorCount": 1,
+    "acceleratorType": "NVIDIA_H200_141GB",
+    "precision": "BF16",
+    "enableAddons": true,
+    "maxContextLength": 2048,
+    "autoscalingPolicy": {
+      "scaleToZeroWindow": "300s"
+    },
+    "annotations": {
+      "custom/purpose": "support-router-evaluation"
+    }
+  },
+  "create_http_status": 200,
+  "ready_deployment": {
+    "state": "READY",
+    "acceleratorType": "NVIDIA_H200_141GB",
+    "acceleratorCount": 1,
+    "precision": "BF16",
+    "replicaCount": 1
+  },
+  "addon": "accounts/nishokvg-myac5qmcmir/deployedModels/support-router-llama3b-dedicated-01-vnxkkh67",
+  "cleanup_confirmed": true,
+  "elapsed_seconds": 459.3870439529419
+}
