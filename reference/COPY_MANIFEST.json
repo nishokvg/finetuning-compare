@@ -1,0 +1,644 @@
+{
+  "source_directory": "5A-Fine-Tune-a-Support-Ticket-Router",
+  "files": [
+    {
+      "source": ".env.example",
+      "action": "kept destination configuration",
+      "sha256": "f0ea70ff157a15a2d9112c7a4c1f01fb0069f0d0f8e38b57c0ff467886edec49"
+    },
+    {
+      "source": ".gitignore",
+      "action": "kept destination configuration",
+      "sha256": "3e766167b303a757887238d659552b62dbc419d269e37c8a62a4afd5f7cb4d72"
+    },
+    {
+      "source": "Comparison_Results.ipynb",
+      "action": "already identical",
+      "sha256": "5fad6b7cbde882dcac13ba98d0f5b036089162487b8c1ea751df590719a6ce2c"
+    },
+    {
+      "source": "FIREWORKS_DEDICATED_REVIEW.md",
+      "action": "preserved original in reference/gen-academy-workspace",
+      "sha256": "e71b852b2d659a0fc8d79c01873a40e8f696f6762b4140b2b88f3ea7eda9480d"
+    },
+    {
+      "source": "Finetune_Support_Ticket_Classifier_Qwen3.ipynb",
+      "action": "already identical",
+      "sha256": "c35c4b94903416e126f8606eed28e825f6cdb34b35955dfcd8902c9df3fe18ed"
+    },
+    {
+      "source": "LOCAL_DEMO.md",
+      "action": "preserved original in reference/gen-academy-workspace",
+      "sha256": "40694d6fff36eb7a8a4534e6db37ed5a4c6d2982acd2fb11c101f3ce1403ca5b"
+    },
+    {
+      "source": "PROJECT_WALKTHROUGH.md",
+      "action": "preserved original in reference/gen-academy-workspace",
+      "sha256": "22d077fa55e87d82dc0fe199160a19b659d21f2a6b53947e718a11b4d038cfaa"
+    },
+    {
+      "source": "README.md",
+      "action": "preserved original in reference/gen-academy-workspace",
+      "sha256": "66751b57d6f37dd80886939e009d36c2f3c4c3da0c86f37b90a417cf1f88f0d6"
+    },
+    {
+      "source": "SUBMISSION_GUIDE.md",
+      "action": "preserved original in reference/gen-academy-workspace",
+      "sha256": "ac599c18322c939793b5db1ef1645363dd87fd35b932f3224ca836e20898a83b"
+    },
+    {
+      "source": "Support_Ticket_Router_Submission.zip",
+      "action": "copied missing file",
+      "sha256": "e824c1e0b9a9410212767a0e19575696e70767116a6c5ae34bd5ce3dfc5d7d78"
+    },
+    {
+      "source": "configs/fireworks.json",
+      "action": "already identical",
+      "sha256": "925a2f1457c69fb6441fb715a0ed86e914f83b6e021192b404c415cfc8467263"
+    },
+    {
+      "source": "configs/fireworks_inference.json",
+      "action": "already identical",
+      "sha256": "0e500809744b3081e718496132e06ab83ea8ded7d1e1ea7f2722db3d6fea0572"
+    },
+    {
+      "source": "configs/fireworks_llama_dedicated.json",
+      "action": "already identical",
+      "sha256": "56f94192bc1bc92560566f8b1da2da0858e71e8ac2d38526fe7e6db52560c520"
+    },
+    {
+      "source": "configs/local_full.json",
+      "action": "already identical",
+      "sha256": "9f89575044dd1d43cd2df0679b08a5213fa8fcbf7c71ce077701fee03eab797b"
+    },
+    {
+      "source": "configs/local_pilot.json",
+      "action": "already identical",
+      "sha256": "ca20231629a4ee103cee7beb28bde0708ebd688b08482c555af025d9fcabd387"
+    },
+    {
+      "source": "data/manifest.json",
+      "action": "already identical",
+      "sha256": "d619ddf1bf56272a4758664515c47dd4ab368357c2000047bd8f125eea5253ac"
+    },
+    {
+      "source": "data/test.csv",
+      "action": "already identical",
+      "sha256": "9822c2ed85fb2fe26a108173a756ce4e1166df26cdbcc4724fb5b63c929a75a7"
+    },
+    {
+      "source": "data/test.jsonl",
+      "action": "already identical",
+      "sha256": "b5dcd6cc8211f31f9e83e0f56512fb25ce7306bc0a041c15d68a14212ec7fd2c"
+    },
+    {
+      "source": "data/train.csv",
+      "action": "already identical",
+      "sha256": "ef221ff178aead61e0064c0b3caeea4b51f76657ce35d4f85bc8e9e8023e00b4"
+    },
+    {
+      "source": "data/train.jsonl",
+      "action": "already identical",
+      "sha256": "15f80b21c618e7ec4c336cf79c42af5a45d1f12c20dfb55f8246aebcbb69eb69"
+    },
+    {
+      "source": "data/valid.csv",
+      "action": "already identical",
+      "sha256": "e308c75b5ae07c5dcb770087eab01d8fa43139ecf780c88b8cd993d0107be8b6"
+    },
+    {
+      "source": "data/valid.jsonl",
+      "action": "already identical",
+      "sha256": "d20332380799a30b1a15de01efe958bd6d446a9ef417517a948eb642c49f305e"
+    },
+    {
+      "source": "requirements-fireworks.lock.txt",
+      "action": "already identical",
+      "sha256": "118968f24ab46aa1a5826eb1cc5ab1efd211b5e4d91630d5be3f3a451c8e1484"
+    },
+    {
+      "source": "requirements-fireworks.txt",
+      "action": "already identical",
+      "sha256": "afb1af551f59eccb40823b348f73b5d10acd22e0173d5f44859d1dbb670e03d2"
+    },
+    {
+      "source": "requirements.lock.txt",
+      "action": "already identical",
+      "sha256": "8cf2949b858d0729eb4f64d99031a43c89ee43e6473f14a9c648b48ea4e3573b"
+    },
+    {
+      "source": "requirements.txt",
+      "action": "already identical",
+      "sha256": "88857ef35637e4591841a7ca18add2d8bd3415b58fbf99ad723c0dadd12b27d0"
+    },
+    {
+      "source": "results/REPORT.md",
+      "action": "already identical",
+      "sha256": "706513486a881b023602ccc09523c0d49441d38177f64d1a7af757e1457ecc5d"
+    },
+    {
+      "source": "results/comparison.png",
+      "action": "already identical",
+      "sha256": "368ca8f46739e9af5ac6e3bb0c0c99502164e849431517a4f64298abf1c41c6b"
+    },
+    {
+      "source": "results/conversion.log",
+      "action": "copied missing file",
+      "sha256": "b81ffe9474b439b8782f1427538948db94d68cccc37a5cd35e486e4235339a9f"
+    },
+    {
+      "source": "results/demo-ticket.json",
+      "action": "already identical",
+      "sha256": "287a4db290a06c5132d81a70be2a7c5c3a346da0d95361e80950a51880577d7a"
+    },
+    {
+      "source": "results/environment.json",
+      "action": "already identical",
+      "sha256": "e359b598b6c330e56b70e80ade7f8b413dbdb3c5d91e29163e5937e9948691b2"
+    },
+    {
+      "source": "results/final-local-evaluation.log",
+      "action": "copied missing file",
+      "sha256": "efd65f63ef7b10637e71717ff45c698c8d37fe2cc0271e59b6332d5fe494fcb1"
+    },
+    {
+      "source": "results/final-verification.json",
+      "action": "already identical",
+      "sha256": "bd68aa172ae6e5645bbc2094e47be5cb68b9958394e2defe26c632a32acd06c3"
+    },
+    {
+      "source": "results/fireworks-baseline-confusion.png",
+      "action": "already identical",
+      "sha256": "825d89add730715c69289b6ea61c110ad47b385eb00a54f05ed9dcccb861f470"
+    },
+    {
+      "source": "results/fireworks-baseline-smoke/metrics.json",
+      "action": "already identical",
+      "sha256": "e6af1217db0e552b1a6dc2d230904ee50205c3a9df08b10c52c0d2417dba36ac"
+    },
+    {
+      "source": "results/fireworks-baseline-smoke/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "184a21be9efa82f83ff1452d3b409e71c2e5b37e9ecd926c1dc5902df4053b45"
+    },
+    {
+      "source": "results/fireworks-baseline-smoke/run_config.json",
+      "action": "already identical",
+      "sha256": "2cf6b3f26494962335cf964ac7bc67f39ef594861ea357d5a6621513fb956e8f"
+    },
+    {
+      "source": "results/fireworks-baseline-test/metrics.json",
+      "action": "already identical",
+      "sha256": "29810281d0dbce73d31922b0bd46eaad31de2f20dacc374aabb9707903f3705a"
+    },
+    {
+      "source": "results/fireworks-baseline-test/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "a1c5da0bd51ce8c6756d369b4caa2f9b44ad3524000a43aa03738f4a6ad7e64e"
+    },
+    {
+      "source": "results/fireworks-baseline-test/run_config.json",
+      "action": "already identical",
+      "sha256": "044e8f1e658dc60161478778224f2a0c67d1cdb8fddc4f984bc82bd59d7ae337"
+    },
+    {
+      "source": "results/fireworks-baseline-valid/metrics.json",
+      "action": "already identical",
+      "sha256": "ba05618f47520b6358d4620ee3631cf890c02327431cf9a78a87ea3723819455"
+    },
+    {
+      "source": "results/fireworks-baseline-valid/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "52f6063503b3eb6961be9a072128a01962014b55041c593926b08a560ebf8b20"
+    },
+    {
+      "source": "results/fireworks-baseline-valid/run_config.json",
+      "action": "already identical",
+      "sha256": "1705f7678ac0bd79a61709d29e68e4d850f89a3b47d45a42300f45371ddc3e4e"
+    },
+    {
+      "source": "results/fireworks-dedicated/llama3b-01/recipe/dataloader.json",
+      "action": "copied missing file",
+      "sha256": "f0bfe350e7ab3f9aa8b32df900d66b0f59166aba5616363d8d88de8a610a02fa"
+    },
+    {
+      "source": "results/fireworks-dedicated/llama3b-01/supervisor.json",
+      "action": "copied missing file",
+      "sha256": "3245c79b649ddb8b0ae90bb1fd4d3cf85c1949359b526fc59c50e9198fe9ebd3"
+    },
+    {
+      "source": "results/fireworks-dedicated/llama3b-01/worker-result.json",
+      "action": "copied missing file",
+      "sha256": "d3d5b16cec1966e4ad9bdccb153d6704b3ec5fa45b7ca07a2159fc2b4a292a06"
+    },
+    {
+      "source": "results/fireworks-dedicated/llama3b-01/worker.log",
+      "action": "copied missing file",
+      "sha256": "41c385d281052705b8a532cca462a88364b35a045de44611778b1acce5491599"
+    },
+    {
+      "source": "results/fireworks-final-billing.json",
+      "action": "already identical",
+      "sha256": "f3aa2b5ac5f2f5accde9aa47b6a82edd3f1550b8da7e8318562b8ed8a8ca7138"
+    },
+    {
+      "source": "results/fireworks-final-resources.json",
+      "action": "already identical",
+      "sha256": "d1e8be7655ff238f3a2dc1b98d1125d92c85e12e478b5461379c2e4ec01e6d52"
+    },
+    {
+      "source": "results/fireworks-inference-session.json",
+      "action": "already identical",
+      "sha256": "df11e9f06a9821bf3f580c5728f770528bf5f061e86e6e88d5d4650611d01458"
+    },
+    {
+      "source": "results/fireworks-launch-preflight.json",
+      "action": "already identical",
+      "sha256": "7acf30913bbf16893056d7fcbb66f47c93877c47a7c27717009b520a505e0048"
+    },
+    {
+      "source": "results/fireworks-llama-submission.json",
+      "action": "already identical",
+      "sha256": "df5b178be791476e705a99ffcc4af1b8cc1dbcc32ff47fdd7e219acd091ad337"
+    },
+    {
+      "source": "results/fireworks-llama-training.json",
+      "action": "already identical",
+      "sha256": "5018a8da745872ea1700ea1cb09428d034c15eb03d261c5b70f6fdfa212828e3"
+    },
+    {
+      "source": "results/fireworks-runtime-check.json",
+      "action": "already identical",
+      "sha256": "dc50c138226627fee1525b93f076a2f466fb68f18990a5701429bbc37f841d35"
+    },
+    {
+      "source": "results/fireworks-tuned-confusion.png",
+      "action": "already identical",
+      "sha256": "72e6296d3072bf110b6dbf7926ff1cf30d067e00e73812c5cb06e01cc441e520"
+    },
+    {
+      "source": "results/fireworks-tuned-smoke/metrics.json",
+      "action": "already identical",
+      "sha256": "cf07562d1894b348965abae22361283edce9e147269222d00dd85662f611704c"
+    },
+    {
+      "source": "results/fireworks-tuned-smoke/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "8b110f1b62ab52abc606c22ce65442178d535ef81c6ca5f949ec74ab5faeefa2"
+    },
+    {
+      "source": "results/fireworks-tuned-smoke/run_config.json",
+      "action": "already identical",
+      "sha256": "95abde3fe5473facde484e55c4a8cada5a0e18c0ee75f132adc77a6fbca173c6"
+    },
+    {
+      "source": "results/fireworks-tuned-test/metrics.json",
+      "action": "already identical",
+      "sha256": "b2b432c1c2268b05336b563b140babd21e7da3247ddd390d4512ea507c470aaf"
+    },
+    {
+      "source": "results/fireworks-tuned-test/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "f5b00f84caa42402b302339276d02d7d23f2eec197591cad71d6078a59930003"
+    },
+    {
+      "source": "results/fireworks-tuned-test/run_config.json",
+      "action": "already identical",
+      "sha256": "ac25d1c2ef068aa3aac0351ff0603ff2167dc3e18e9df0cdace0df4826d00f23"
+    },
+    {
+      "source": "results/fireworks-tuned-valid/metrics.json",
+      "action": "already identical",
+      "sha256": "478e4d1570868ed2ab86653ae59b23cce7e8792e6cc9fc0a6a23d4bd80925700"
+    },
+    {
+      "source": "results/fireworks-tuned-valid/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "36aa9e5ce4a54e78226032ce6bc8471bcb1ac08ac39ecddcc7f4d3d617a51a5f"
+    },
+    {
+      "source": "results/fireworks-tuned-valid/run_config.json",
+      "action": "already identical",
+      "sha256": "34e9150ef788760f40e681e6a2cfa361eb22cf5340486458d10612d62c6f991f"
+    },
+    {
+      "source": "results/label-audit.md",
+      "action": "already identical",
+      "sha256": "464b60493905f9287fb06a5631cfb410e4de24ad2338acd886f794e14e4b9a08"
+    },
+    {
+      "source": "results/local-adapter-smoke/metrics.json",
+      "action": "already identical",
+      "sha256": "4b13f21e8b6aa76d7bf525918c89ac3166be928cbd0fe34870b5869608f9128d"
+    },
+    {
+      "source": "results/local-adapter-smoke/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "ddb2164b4fc750ceb390dc7574e0298a7f6ecfc699a6fd875a0263dc93c56d2c"
+    },
+    {
+      "source": "results/local-adapter-smoke/run_config.json",
+      "action": "already identical",
+      "sha256": "b0bd3ee5558403377505530c7f5315737f77da69efdda8d0b16c298ef5f2773c"
+    },
+    {
+      "source": "results/local-adapter-smoke.log",
+      "action": "copied missing file",
+      "sha256": "4ed89b52d6dc4bc6be4ee999563f0057f7609d55bd889e575622a3f76641c8ab"
+    },
+    {
+      "source": "results/local-baseline-confusion.png",
+      "action": "already identical",
+      "sha256": "328d7f13d8ee96deaf4c9dff6bbe35a19e0de695e0ddde455aeacd55eb8b7cb3"
+    },
+    {
+      "source": "results/local-baseline-test/metrics.json",
+      "action": "already identical",
+      "sha256": "9217a742937f0500b7ea23bc6d3b6b89809aacad720e62a667f8a2bdb3d2467e"
+    },
+    {
+      "source": "results/local-baseline-test/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "a26842039b333bb80b0dd1a1afa847aa6f26ab813870e9aa1d4b74dcce302a06"
+    },
+    {
+      "source": "results/local-baseline-test/run_config.json",
+      "action": "already identical",
+      "sha256": "0f3b075911a705c153c540ae0955318f073cb76e4cf48801c76c645adaceaa03"
+    },
+    {
+      "source": "results/local-evaluation.log",
+      "action": "copied missing file",
+      "sha256": "c394c09ee3802514a169aa1c0f93289bcb96ea98fccab5c97786524ca84c3885"
+    },
+    {
+      "source": "results/local-full-valid/metrics.json",
+      "action": "already identical",
+      "sha256": "ebd1b5aeebe2026d1d758db405358ce4554e8ee3329926f6b727b4bd69cf7695"
+    },
+    {
+      "source": "results/local-full-valid/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "726c3d93a48c1220168665964f6851cc164d8eba5821132c44410ed5af20f8f7"
+    },
+    {
+      "source": "results/local-full-valid/run_config.json",
+      "action": "already identical",
+      "sha256": "aaea297ea716cbbfe4fc3adc0f2999ffc13756b61a666e453fee5fbfcc880503"
+    },
+    {
+      "source": "results/local-full.log",
+      "action": "copied missing file",
+      "sha256": "60737d7579c870be044ca70fe203a77d2892f2f0a8de009b7e9e2dc3daa840fb"
+    },
+    {
+      "source": "results/local-merged-8bit-confusion.png",
+      "action": "already identical",
+      "sha256": "c290cca00594c3bf594150582c5178685aa17d407af49cd69402ea37fd736f46"
+    },
+    {
+      "source": "results/local-merged-8bit-smoke/metrics.json",
+      "action": "already identical",
+      "sha256": "bed4d9b1f9479973888dd862fa5d7ea99ce0142fa78161462607c379603b3caa"
+    },
+    {
+      "source": "results/local-merged-8bit-smoke/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "04df2b589975e054951a6b49b3995a8cd4ab1021aac1397c96774e6ebde88546"
+    },
+    {
+      "source": "results/local-merged-8bit-smoke/run_config.json",
+      "action": "already identical",
+      "sha256": "3130743cd1a28bd3ac5769d5dd777959b1481e18323702045a5d8a7808e3989a"
+    },
+    {
+      "source": "results/local-merged-8bit-test/metrics.json",
+      "action": "already identical",
+      "sha256": "0b6cd38fd34a8f17d6d8ef6df60aed1dee11e53f81b3d8701fe9bd57b83086ae"
+    },
+    {
+      "source": "results/local-merged-8bit-test/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "dd2739cb647e26c8a6d627d1448f0fac7341951313cc4082ae4ed43faf48891a"
+    },
+    {
+      "source": "results/local-merged-8bit-test/run_config.json",
+      "action": "already identical",
+      "sha256": "142f23788613c7eb63296f765f8223732f55062ac204c2068b5e45938cf76315"
+    },
+    {
+      "source": "results/local-merged-8bit-valid/metrics.json",
+      "action": "already identical",
+      "sha256": "5314b7bb3c08c3187f793f15db30571f143ffab5c5f7ff623d14593ca851ee9d"
+    },
+    {
+      "source": "results/local-merged-8bit-valid/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "7f82c40bae536212b680659857c9a42df1a08e48b78f404545d458beeda7590c"
+    },
+    {
+      "source": "results/local-merged-8bit-valid/run_config.json",
+      "action": "already identical",
+      "sha256": "16076ab5c2af584f8d114320560167e4bccd4c04efb1bfdded7c283d86ab9faf"
+    },
+    {
+      "source": "results/local-merged-confusion.png",
+      "action": "already identical",
+      "sha256": "460623f1419dbdd149189bff24f85b9c20fe94684fa0177294a625b8fc44cdec"
+    },
+    {
+      "source": "results/local-merged-smoke/metrics.json",
+      "action": "already identical",
+      "sha256": "29b1a9e57d9db53666f6fe8e8b7d47cf4ebeac244db568ff981b71a58e09092e"
+    },
+    {
+      "source": "results/local-merged-smoke/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "4c1843af8a1bd3a4381cfc4159872f422b4a72ddaebc543497380043d87819e6"
+    },
+    {
+      "source": "results/local-merged-smoke/run_config.json",
+      "action": "already identical",
+      "sha256": "61d175a8cc8a16a3e67a47b28cf57ad25621e4a019b1e949c4552e83026cd8f5"
+    },
+    {
+      "source": "results/local-merged-test/metrics.json",
+      "action": "already identical",
+      "sha256": "0b0f4156c7d7f4249db83d5e3a81b8e06fc7cd5acf50fa4e86c54fbb82a3ed64"
+    },
+    {
+      "source": "results/local-merged-test/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "54112a5fe6c958657d5153285f65935d4bcb5961df5cf12bdd7812f4b6f590f3"
+    },
+    {
+      "source": "results/local-merged-test/run_config.json",
+      "action": "already identical",
+      "sha256": "15734370c8cc4e198c4bf1dc539c1ac0aaaa30bdfbf2456ca9c727ba073e87b4"
+    },
+    {
+      "source": "results/local-merged-valid/metrics.json",
+      "action": "already identical",
+      "sha256": "4b4c1a4e433151315839584e07d52def30c6d0c89b913b1b324865764b5535ad"
+    },
+    {
+      "source": "results/local-merged-valid/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "0b1daedbf3d1b4e1d414bc6804793762873f0fa865e06e88ef9dbcfa887ab5da"
+    },
+    {
+      "source": "results/local-merged-valid/run_config.json",
+      "action": "already identical",
+      "sha256": "7eee0385e21705f83ceebcf7e0d7fb0115fdb5bb3710bc503c85cd718ca6e891"
+    },
+    {
+      "source": "results/local-pilot-smoke/metrics.json",
+      "action": "already identical",
+      "sha256": "77dc345cc9b459fff22690fa6f33b361e8aa5713a270addfa6168991fa76bf9c"
+    },
+    {
+      "source": "results/local-pilot-smoke/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "e109df0ded37bb037efc039ffc07111265c139aae068327b398f270a109660fe"
+    },
+    {
+      "source": "results/local-pilot-smoke.log",
+      "action": "copied missing file",
+      "sha256": "6757e1a7196370df527a080c6f1ee0b4f4195fe161d2c8abe9d2cd601dbd919d"
+    },
+    {
+      "source": "results/local-pilot.log",
+      "action": "copied missing file",
+      "sha256": "665d71c04ae54f1a46118480b89572efd2a000ac4ee2756d050d52aab33507fb"
+    },
+    {
+      "source": "results/local-selection.json",
+      "action": "already identical",
+      "sha256": "3c03fa5cf1ed03f0bd59035455b427b72f2dce11b0ec90904653a3e4168d02f3"
+    },
+    {
+      "source": "results/local-tuned-confusion.png",
+      "action": "already identical",
+      "sha256": "4102b8eb24a587ce38ba46ab136e2eb36b797eb5c821e619da4b7d304c25339e"
+    },
+    {
+      "source": "results/local-tuned-test/metrics.json",
+      "action": "already identical",
+      "sha256": "a15c41fe21c986ce62f20d480d4330d5d298f86ca9367d3c96ddc11559253d4d"
+    },
+    {
+      "source": "results/local-tuned-test/predictions.jsonl",
+      "action": "already identical",
+      "sha256": "bd7fef5c9e16a8979cab5e658f7f2986561d41da86701a09b204cd05a9379c1e"
+    },
+    {
+      "source": "results/local-tuned-test/run_config.json",
+      "action": "already identical",
+      "sha256": "b417c1cb596fc31f7eebccd41ab456525f91b845e5d16867fb2d586d1beaaa3a"
+    },
+    {
+      "source": "results/merge-8bit.log",
+      "action": "copied missing file",
+      "sha256": "9a016bf8e6f4d2e6c007306fa91b0c63a026abc3c3c5d440bcdc5a981dff1973"
+    },
+    {
+      "source": "results/merge-decision.json",
+      "action": "already identical",
+      "sha256": "58f90eecf3f1fc699a2158ef39cd10337cb55bf58d1fe44abedce827bd0812b6"
+    },
+    {
+      "source": "results/merged-8bit-validation.log",
+      "action": "copied missing file",
+      "sha256": "7474d4650d65ac1aa860975ad9b55d666638416df29a247b76bb3029b4faec18"
+    },
+    {
+      "source": "results/meta-tokenizer-conversion.json",
+      "action": "already identical",
+      "sha256": "f7078f861dd173f038119c2e9f99096b2ae74229a7da0bcbef0c7e1adeb88d3d"
+    },
+    {
+      "source": "results/misclassified_tickets.csv",
+      "action": "already identical",
+      "sha256": "1c00e584c6254ce20459e0fcc43a23e67b89789dc6213fa8fcd578c228215389"
+    },
+    {
+      "source": "results/training-losses.png",
+      "action": "already identical",
+      "sha256": "5aa58c15d69644d9fa864b8a5cbaf40287daa0c0cb2dd7e83b47feb8c265f10e"
+    },
+    {
+      "source": "scripts/classify.py",
+      "action": "already identical",
+      "sha256": "96d1b02f6785aa703a1565b674b619397cd359fa8f7d5f0a62dea4eb35d6e70c"
+    },
+    {
+      "source": "scripts/convert_meta_router_tokenizer.py",
+      "action": "already identical",
+      "sha256": "0d7753f56e602ab9ef12cea2200c6bd230c701e6a961e353a23c3eece857e514"
+    },
+    {
+      "source": "scripts/evaluate.py",
+      "action": "already identical",
+      "sha256": "da18f72dee30aa2b8a798818b0b6fb441d007153fdfd3f19b7b715a097104d84"
+    },
+    {
+      "source": "scripts/finish_fireworks.py",
+      "action": "already identical",
+      "sha256": "1e391066a9cd98422ce2f28df2e2b337d57d9335af96d41fb3fbb41b4d6e6a37"
+    },
+    {
+      "source": "scripts/finish_local.py",
+      "action": "already identical",
+      "sha256": "84975cfb4c8bae82dbabf4f98f6941641f7496e9076b87dd9f6a9cf73712b4ed"
+    },
+    {
+      "source": "scripts/fireworks_dedicated.py",
+      "action": "already identical",
+      "sha256": "69987402eea0a6cc427783e50e8419f8112d70b4bd49840c828f80b6b55f2bad"
+    },
+    {
+      "source": "scripts/merge_local.py",
+      "action": "already identical",
+      "sha256": "ee371ad9dc4f4a6380e5b7021ab4ecaf9a3d27d806ffbf2f0fda0fb35489414c"
+    },
+    {
+      "source": "scripts/prepare_data.py",
+      "action": "already identical",
+      "sha256": "ef977e019d45d96ea7f1bd298e4764bd21181d42cfa2c2172c82ab24f445f2b8"
+    },
+    {
+      "source": "scripts/report.py",
+      "action": "preserved original in reference/gen-academy-workspace",
+      "sha256": "9082970b6e4d620274fdeedac521a861ae24ab3fcbd10630b8a5b249293636ba"
+    },
+    {
+      "source": "scripts/train_local.py",
+      "action": "already identical",
+      "sha256": "26697d42cec173b8a04beab71f42f0ab16d2697f10b37e6a2abb3e6d04ea187c"
+    },
+    {
+      "source": "support_tickets.csv",
+      "action": "already identical",
+      "sha256": "c55c98b462f1af9b2f5e4ad8a7460a6b598e55bcfa42da1b57dc9e921e82783f"
+    },
+    {
+      "source": "tests/test_evaluation.py",
+      "action": "already identical",
+      "sha256": "d34a69d9fdec49920f0406ab678429f1737e2f95b0035602e02e3877aa593e27"
+    },
+    {
+      "source": "tests/test_fireworks_dedicated.py",
+      "action": "preserved original in reference/gen-academy-workspace",
+      "sha256": "bfaab1029964a08941c8f26e7cdcd86f65382d8091f47795f3b16b5982470d00"
+    }
+  ],
+  "excluded": [
+    "Git internals",
+    "credentials",
+    "Python environments",
+    "downloaded weights",
+    "cache files"
+  ],
+  "note": "Existing destination improvements are retained; original changed documents and code are saved under gen-academy-workspace. Raw SDK records and the earlier ZIP are copied locally but remain Git-ignored.",
+  "publication_note": "Absolute local project paths in copied logs and archived text use placeholders. SHA256 entries identify original source bytes before path normalization."
+}

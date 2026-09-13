@@ -1,0 +1,37 @@
+10/94 evaluated
+20/94 evaluated
+30/94 evaluated
+40/94 evaluated
+50/94 evaluated
+60/94 evaluated
+70/94 evaluated
+80/94 evaluated
+90/94 evaluated
+{
+  "backend": "mlx",
+  "model": "models/local-router-merged-8bit",
+  "adapter": null,
+  "split": "valid",
+  "output": "results/local-merged-8bit-valid",
+  "limit": null,
+  "resume": false,
+  "n": 94,
+  "accuracy": 0.9042553191489362,
+  "macro_f1": 0.8885480110183053,
+  "invalid_outputs": 0,
+  "latency_median_seconds": 0.5112357709731441,
+  "latency_p95_seconds": 0.6249732836440669,
+  "confusion_labels": [
+    "Support general",
+    "Fileservice",
+    "O365",
+    "EOL",
+    "Software",
+    "Active Directory",
+    "Computer-Services",
+    "INVALID"
+  ],
+  "max_new_tokens": 16,
+  "temperature": 0,
+  "parsing": "case-insensitive exact label after whitespace trim; invalids are errors"
+}

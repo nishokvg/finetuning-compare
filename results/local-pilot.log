@@ -1,0 +1,46 @@
+Token counts: {"train": {"rows": 372, "max_tokens": 165, "total_tokens": 38569}, "valid": {"rows": 94, "max_tokens": 186, "total_tokens": 9979}}
+Trainable parameters: 0.411% (16.515M/4022.468M)
+Starting training..., iters: 80
+Python(50105) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+
+Calculating loss...:   0%|          | 0/14 [00:00<?, ?it/s]
+Calculating loss...:   7%|▋         | 1/14 [00:02<00:27,  2.15s/it]
+Calculating loss...:  14%|█▍        | 2/14 [00:02<00:14,  1.19s/it]
+Calculating loss...:  21%|██▏       | 3/14 [00:03<00:09,  1.14it/s]
+Calculating loss...:  29%|██▊       | 4/14 [00:03<00:07,  1.37it/s]
+Calculating loss...:  36%|███▌      | 5/14 [00:04<00:05,  1.55it/s]
+Calculating loss...:  43%|████▎     | 6/14 [00:04<00:04,  1.67it/s]
+Calculating loss...:  50%|█████     | 7/14 [00:05<00:03,  1.89it/s]
+Calculating loss...:  57%|█████▋    | 8/14 [00:05<00:03,  1.91it/s]
+Calculating loss...:  64%|██████▍   | 9/14 [00:06<00:02,  1.93it/s]
+Calculating loss...:  71%|███████▏  | 10/14 [00:06<00:02,  1.94it/s]
+Calculating loss...:  79%|███████▊  | 11/14 [00:07<00:01,  1.95it/s]
+Calculating loss...:  86%|████████▌ | 12/14 [00:07<00:01,  1.70it/s]
+Calculating loss...:  93%|█████████▎| 13/14 [00:08<00:00,  1.78it/s]
+Calculating loss...: 100%|██████████| 14/14 [00:08<00:00,  1.97it/s]
+Calculating loss...: 100%|██████████| 14/14 [00:08<00:00,  1.60it/s]
+Iter 1: Val loss 3.693, Val took 8.794s
+Iter 20: Train loss 2.379, Learning Rate 1.000e-04, It/sec 0.628, Tokens/sec 3.581, Trained Tokens 114, Peak mem 2.975 GB
+Iter 40: Train loss 0.347, Learning Rate 1.000e-04, It/sec 0.835, Tokens/sec 4.465, Trained Tokens 221, Peak mem 2.975 GB
+Iter 60: Train loss 0.198, Learning Rate 1.000e-04, It/sec 0.998, Tokens/sec 5.441, Trained Tokens 330, Peak mem 2.975 GB
+
+Calculating loss...:   0%|          | 0/14 [00:00<?, ?it/s]
+Calculating loss...:   7%|▋         | 1/14 [00:00<00:05,  2.57it/s]
+Calculating loss...:  14%|█▍        | 2/14 [00:00<00:04,  2.54it/s]
+Calculating loss...:  21%|██▏       | 3/14 [00:01<00:04,  2.52it/s]
+Calculating loss...:  29%|██▊       | 4/14 [00:01<00:03,  2.53it/s]
+Calculating loss...:  36%|███▌      | 5/14 [00:01<00:03,  2.50it/s]
+Calculating loss...:  43%|████▎     | 6/14 [00:02<00:03,  2.51it/s]
+Calculating loss...:  50%|█████     | 7/14 [00:02<00:03,  2.32it/s]
+Calculating loss...:  57%|█████▋    | 8/14 [00:03<00:02,  2.38it/s]
+Calculating loss...:  64%|██████▍   | 9/14 [00:03<00:02,  2.43it/s]
+Calculating loss...:  71%|███████▏  | 10/14 [00:04<00:01,  2.15it/s]
+Calculating loss...:  79%|███████▊  | 11/14 [00:04<00:01,  2.39it/s]
+Calculating loss...:  86%|████████▌ | 12/14 [00:04<00:00,  2.43it/s]
+Calculating loss...:  93%|█████████▎| 13/14 [00:05<00:00,  2.66it/s]
+Calculating loss...: 100%|██████████| 14/14 [00:05<00:00,  2.85it/s]
+Calculating loss...: 100%|██████████| 14/14 [00:05<00:00,  2.52it/s]
+Iter 80: Val loss 0.158, Val took 5.567s
+Iter 80: Train loss 0.258, Learning Rate 1.000e-04, It/sec 0.963, Tokens/sec 5.057, Trained Tokens 435, Peak mem 3.097 GB
+Iter 80: Saved adapter weights to adapters/local-pilot/adapters.safetensors and adapters/local-pilot/0000080_adapters.safetensors.
+Saved final weights to adapters/local-pilot/adapters.safetensors.

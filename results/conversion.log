@@ -1,0 +1,9 @@
+Verified shard length: model-00002-of-00003.safetensors
+Verified shard length: model-00003-of-00003.safetensors
+Verified shard length: model-00001-of-00003.safetensors
+[INFO] Loading
+[INFO] Using dtype: bfloat16
+[INFO] Quantizing
+[INFO] Quantized model with 4.501 bits per weight.
+Conversion seconds: 13.108685916988179
+Peak MLX GiB: 2.819604881107807
